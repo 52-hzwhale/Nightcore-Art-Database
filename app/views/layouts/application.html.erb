@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nightcore Art Museum</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <%= favicon_link_tag asset_path('miku.png') %>
+    <div id="header">
+      <h1 id="header_title">Nightcore Art Museum & Database</h1>
+      <div id="menu">
+      <h2 style="display:inline;"><%= link_to "Home", articles_path %></h2>
+      <h2 style="display:inline;"><%= link_to "About", about_path %></h2>
+      <h2 style="display:inline;"><a href="https://github.com/">GitHub</a></h2>
+      </div>
+    </div>
+  </head>
+
+  <body>
+    <%= yield %>
+    <p id="footer">Since 2023, website made by <a href="https://github.com/52-hzwhale">52-hzwhale</a> <3</p>
+  </body>
+</html>

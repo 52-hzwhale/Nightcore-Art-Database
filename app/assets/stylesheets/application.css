@@ -1,0 +1,195 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body {
+    background-color: black;
+ }
+
+ * { /*all text*/
+    padding: 2px;
+    font-family: system-ui;
+    color: white;
+ }
+
+ li {
+    overflow: hidden;
+ }
+
+ #header, h2, #paginate, #search-container, #disclaimer, #about_goth {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+ }
+
+ #header_title {
+   font-family: 'Times New Roman', Times, serif
+ }
+
+ #menu h2 {
+   margin-left: 0.4em;
+   margin-right: 0.4em;
+ }
+
+#disclaimer {
+   margin-bottom: 0.5em;
+}
+
+td {
+    border: solid white;
+ }
+
+table {
+    margin: auto;
+    width: 50%;
+}
+
+#thumbnail img {
+   width: 13em;
+}
+
+#back a {
+   margin-left: 25em;
+}
+
+#main_table {
+   text-align: center;
+}
+
+a:hover {
+    color: gray;
+}
+
+#img-container { 
+    margin: auto;
+    width: 50%;
+    text-align: center; 
+}
+
+#img-container img {
+    width: 700px;
+}
+
+input {
+   background-color: transparent;
+   padding: 5px;
+   margin-bottom: 5px;
+}
+
+input[type=search] {
+   border: 1px solid white;
+   width: 15em;
+}
+
+input[type=submit] {
+   background-color: gray;
+   border: none;
+   border-radius: 2px;
+   padding: 6px;
+   width: 5em;
+}
+
+input[type=submit]:hover {
+   background-color: #4f4f4f;
+}
+
+.page_title {
+   padding: 10px;
+   margin: auto;
+   width: 50%;
+   text-align: center;
+}
+
+#footer {
+   margin: auto;
+   width: 50%;
+   text-align: center;
+   color: rgb(164, 164, 164);
+   clear: both;
+}
+
+#footer a:hover {
+   color: rgb(87, 87, 87);
+}
+
+#about_text {
+   float: left;
+}
+
+#about_container {
+   margin-top: 2em;
+   margin-bottom: 5em;
+}
+
+#float_right {
+   float: right;
+   position: relative;
+   clear: both;
+}
+
+#float_right a {
+   text-align: center;
+   
+}
+
+#float_right img {
+   margin-right: 18em;
+}
+
+#float_left {
+   float: left;
+   margin-left: 20em;
+   width: 40em;
+   position: relative;
+   clear: both;
+}
+
+#float_center {
+   width: 70em;
+   clear: both;
+}
+
+#quote {
+   font-size: 1.5em;
+   color: rgb(143, 143, 143);
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#footnote_link sup:hover {
+   color: gray;
+}
+
+#footnote_link {
+   text-decoration: none;
+}
+
+#g_left {
+   width: 40%;
+   clear: both;
+}
+
+#g_right {
+   width: 45%;
+   clear: both;
+}
+
+#p_right {
+   width: 33.5%;
+}
+
+#about_miku img:not(#kise) {
+   width: 70%;
+}

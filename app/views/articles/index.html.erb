@@ -1,0 +1,28 @@
+<h2 class="page_title">Articles</h2>
+<p id="disclaimer"><b>DISCLAIMER:</b> While I do not host any explicit content on this website, some artworks originate from NSFW sources. Such sources are marked as "R-18" in the "Source Type" field in their database entries. Please use discretion when looking up these sources online!</p>
+<div id="search-container">
+    <%= search_form_for @q do |f| %>
+        <%= f.search_field :title_cont %>
+        <%= f.submit %>
+    <% end %>
+</div>
+<div id="main_table">
+    <table>
+        <tr>
+            <td><b>Song Title</b></td>
+            <td><b>Thumbnail</b></td>
+            <td><b>Upload Date of Nightcore Version</b></td>
+        </tr>
+        <% @articles.each do |article| %>
+            <tr>
+                <td><%= link_to article.title, article %></td>
+                <td><div id="thumbnail"><%= image_tag(article.imgPath) %></div></td>
+                <td><%= article.uploadDate %></td>
+            </tr>
+        <% end %>
+    </table>
+</div>
+<div id="paginate">
+    <%= will_paginate @articles %>
+    <%= page_entries_info @articles %>
+</div>

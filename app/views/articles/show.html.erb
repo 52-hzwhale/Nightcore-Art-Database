@@ -1,0 +1,76 @@
+<div id="back"><%= link_to "Back", :back %></div>
+<h2 class="page_title"><%= @article.title %></h2>
+<div id="img-container"><%= image_tag(@article.imgPath) %></div>
+<table>
+    <tr>
+        <td><b>Source</b></td>
+        <td><%= @article.source %></td>
+    </tr>
+    <tr>
+        <td><b>Date Published</b></td>
+        <td><%= @article.datePublished %></td>
+    </tr>
+    <tr>
+        <td><b>Character(s)</b></td>
+        <td><%= @article.character %></td>
+    </tr>
+    <tr>
+        <td><b>Artist(s)</b></td>
+        <td><%= @article.artist %></td>
+    </tr>
+    <tr>
+        <td><b>Artist Links</b></td>
+        <td>
+            <ul>
+                <%= @article.artistLinks.html_safe %>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Source Type</b></td>
+        <td><%= @article.sourceType %></td>
+    </tr>
+    <tr>
+        <td><b>Associated Nightcore Video</b></td>
+        <td>
+            <table>
+                <tr>
+                    <td><b>Song Title</b></td>
+                    <td><%= @article.songTitle %></td>
+                </tr>
+                <tr>
+                    <td><b>Artist</b></td>
+                    <td><%= @article.songArtist %></td>
+                </tr>
+                <tr>
+                    <td><b>Uploader</b></td>
+                    <td><%= @article.uploader %></td>
+                </tr>
+                <tr>
+                    <td><b>Platform</b></td>
+                    <td><%= @article.platform %></td>
+                </tr>
+                <tr>
+                    <td><b>Upload Date</b></td>
+                    <td><%= @article.uploadDate %></td>
+                </tr>
+                <tr>
+                    <td><b>Link</b></td>
+                    <td><%= @article.video.html_safe %></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Description</b></td>
+        <td><%= @article.description.html_safe %></td>
+    </tr>
+    <tr>
+        <td><b>Links</b></td>
+        <td>
+            <ul>
+                <%= @article.links.html_safe %>
+            </ul>
+        </td>
+    </tr>
+</table>

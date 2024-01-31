@@ -12,11 +12,6 @@ services:
         fromDatabase:
           name: myapp-db
           property: connectionString
-      - key: REDIS_HOST
-        fromService:
-          name: myapp-redis
-          type: pserv
-          property: hostport
       - key: RAILS_MASTER_KEY
         sync: false
 

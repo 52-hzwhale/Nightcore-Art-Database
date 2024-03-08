@@ -68,3 +68,6 @@ end
 
 gem 'will_paginate', '~> 3.3'
 gem 'ransack'
+gem "litestack", "~> 0.4.3"
+
+gem "dockerfile-rails", ">= 1.6", :group => :development

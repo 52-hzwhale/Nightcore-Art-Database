@@ -2,7 +2,7 @@
 
 A website made using the [Ruby on Rails](https://rubyonrails.org/) web framework dedicated to hosting an online database supplying information on the sources and artists of anime-style artworks that appear uncredited in popular "Nightcore" videos on YouTube.
 
-I am currently working on finding a way to host the app, so the actual site unfortunately isn't up yet.
+The website is hosted on [Fly.io](https://fly.io/).
 
 ## Requirements
 * Ruby 3.2.2+

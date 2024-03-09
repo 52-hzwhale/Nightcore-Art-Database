@@ -25,7 +25,9 @@
 #   video: "",
 #   imgPath: ""
 
-# Movie.destroy_all
+old_article_count = Article.count
+
+Article.destroy_all
 
 Article.create!([{
     title: "Dam Dadi Doo",
@@ -100,4 +102,6 @@ Article.create!([{
    imgPath: "aroundtheworld.jpg" 
 }])
 
-p "Created #{Article.count} articles"
+added_articles = Article.count - old_article_count
+p "Added #{added_articles} articles"
+p "Current Article Count: #{Article.count} articles"

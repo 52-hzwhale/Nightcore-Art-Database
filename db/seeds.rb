@@ -23,7 +23,8 @@
 #   artistLinks: "",
 #   links: "",
 #   video: "",
-#   imgPath: ""
+#   imgPath: "",
+#   url_field: ""
 
 old_article_count = Article.count
 
@@ -45,7 +46,8 @@ Article.create!([{
     artistLinks: "<ul><li><a href=\"http://www.mahirutei.net/\">Personal Website</a></li><li><a href=\"https://twitter.com/izumimahiru\">Twitter</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E6%B3%89%E3%81%BE%E3%81%B2%E3%82%8B\">Wikipedia (JP)</a></li></ul>",
     links: "<ul><li><a href=\"https://vndb.org/v1074\">VNDB</a></li><li><a href=\"https://ja.wikipedia.org/wiki/Imitation_Lover\">Wikipedia (JP)</a></li></ul>",
     video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6SCQyBcHeDg?si=3ykYZZJWciwZdDlA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    imgPath: "damdadidoo.jpg"
+    imgPath: "damdadidoo.jpg",
+    url_field: "Dam_Dadi_Doo"
 },
 {
     title: "Alejandro",
@@ -63,7 +65,8 @@ Article.create!([{
     artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/53536\">Pixiv</a></li><li><a href=\"http://twitter.com/hal_goshuomo\">Twitter</a></li><li><a href=\"https://seiga.nicovideo.jp/user/illust/1049948\">NicoNico Seiga</a></li></ul>",
     links: "<ul><li><a href=\"https://www.pixiv.net/en/artworks/18949868\">Pixiv</a></li><li><a href=\"https://www.zerochan.net/573477\">Zerochan</a></li></ul>",
     video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SREpvtnxJ4w?si=h07LqVPSOKxiL3tQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    imgPath: "alejandro.jpg"
+    imgPath: "alejandro.jpg",
+    url_field: "Alejandro_(eevee21500)"
 },
 {
     title: "Alejandro",
@@ -81,7 +84,8 @@ Article.create!([{
     artistLinks: "<ul><li><a href=\"https://www.deviantart.com/pancake-waddle\">DeviantArt</a></li><li><a href=\"https://twitter.com/paddywaddle\">Twitter</a></li><li><a href=\"https://turtlequeen.tumblr.com/\">Tumblr</a></li><li><a href=\"https://toyhou.se/turtlequeen\">Toyhouse</a></li></ul>",
     links: "<ul><li><a href=\"https://www.deviantart.com/pancake-waddle/art/MAGE-visitor-351042576\">DeviantArt</a></li></ul>",
     video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bNJD9mqiWlw?si=DXofGH4abxDRjxgG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-    imgPath: "alejandro1.jpg"
+    imgPath: "alejandro1.jpg",
+    url_field: "Alejandro_(rachaelowens6720)"
 },
 {
    title: "Around the World",
@@ -99,7 +103,46 @@ Article.create!([{
    artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/541287\">Pixiv</a></li></ul>",
    links: "<ul><li><a href=\"https://www.pixiv.net/en/artworks/6892009\">Pixiv</a></li><li><a href=\"https://e-shuushuu.net/image/212060/\">Shuushuu</a></li></ul>",
    video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/H2pXUBGIcO8?si=7Xec3DA_b3o_qGDZ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
-   imgPath: "aroundtheworld.jpg" 
+   imgPath: "aroundtheworld.jpg",
+   url_field: "Around_the_World" 
+},
+{
+   title: "You're Gonna Go Far, Kid",
+   source: "Samurai Deeper Kyo/SAMURAI DEEPER KYO",
+   datePublished: "February 2, 2005 (2/2/2005)",
+   character: "Sasuke Sarutobi/猿飛佐助",
+   artist: "momo",
+   sourceType: "Anime/Manga (Fanart)",
+   description: "The colors of the image have been edited between momo's original upload of the illustration and the version in the Nightcore video; all colors in the artwork except for the skin and eyes have been converted to grayscale, and the remaining colors have increased contrast.",
+   songTitle: "You're Gonna Go Far, Kid",
+   songArtist: "The Offspring",
+   uploader: "TechnoIchigo",
+   platform: "YouTube",
+   uploadDate: "February 18, 2012 (2/18/2012)",
+   artistLinks: "<ul><li><a href=\"https://www.deviantart.com/momo\">DeviantArt</a></li></ul>",
+   links: "<ul><li><a href=\"https://www.deviantart.com/momo/art/Amber-Look-14751633\">DeviantArt</a></li></ul>",
+   video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mdML5WPEhEY?si=ldZ1h13BEFRVOi3S\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+   imgPath: "youregonnagofarkid.jpg",
+   url_field: "You're_Gonna_Go_Far_Kid" 
+},
+{
+   title: "Dollhouse",
+   source: "VOCALOID/ボーカロイド",
+   datePublished: "February 6, 2011 (2/6/2011)",
+   character: "Kagamine Rin/鏡音リン",
+   artist: "uiui0608/ウイ（初）",
+   sourceType: "PV Art (Official)",
+   description: "The artwork was made for the official PV for the 2011 VOCALOID song Waltz of the Moon Rainbow by LeleleP featuring the Kagamine Rin Append SWEET voicebank for the VOCALOID2 software.",
+   songTitle: "Dollhouse",
+   songArtist: "Melanie Martinez",
+   uploader: "NightcoreReality",
+   platform: "YouTube",
+   uploadDate: "June 27, 2014 (6/27/2014)",
+   artistLinks: "<ul><li><a href=\"https://piapro.jp/uiui0608\">Piapro</a></li><li><a href=\"http://twitter.com/satsu068\">Twitter</a></li><li><a href=\"https://www.nicovideo.jp/user/1179704/mylist/5125620\">Niconico</a></li><li><a href=\"http://www.pixiv.net/member.php?id=53851\">Pixiv</a></li></ul>",
+   links: "<ul><li><a href=\"https://piapro.jp/t/EULS\">Piapro</a></li><li><a href=\"https://www.nicovideo.jp/watch/sm13507998\">Niconico</a></li></ul>",
+   video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xkIytYlDD_o?si=sxYaiDmY2zKY32xf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+   imgPath: "dollhouse.jpg",
+   url_field: "Dollhouse" 
 }])
 
 added_articles = Article.count - old_article_count

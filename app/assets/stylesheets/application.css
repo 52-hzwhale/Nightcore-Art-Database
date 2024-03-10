@@ -73,8 +73,9 @@ a:hover {
 }
 
 #img-container { 
-    margin: auto;
+    /*margin: auto;
     width: 50%;
+    */
     text-align: center; 
 }
 

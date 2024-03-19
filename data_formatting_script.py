@@ -6,32 +6,33 @@
 
 # Entering Japanese characters will cause unicode errors, any necessary Japanese text can be added manually in the db/seeds.rb file in a text editor after running this script
 
-titleStr = "title: "
-sourceStr = "source: "
-datePublishedStr = "datePublished: "
-characterStr = "character: "
-artistStr = "artist: "
-sourceTypeStr = "sourceType: "
-# Description is the only field where the user needs to manually format the HTML tags themselves
-descriptionStr = "description: "
-songTitleStr = "songTitle: "
-songArtistStr = "songArtist: "
-uploaderStr = "uploader: "
-platformStr = "platform: "
-uploadDateStr = "uploadDate: "
-artistLinksStr = "artistLinks: "
-linksStr = "links: "
-videoStr = "video: "
-imgPathStr = "imgPath: "
-url_fieldStr = "url_field: "
-
 singleEntryStr = ""
 dataStr = ""
 
 loop = True
 
 while loop:
-    title_val = input("Enter title (Enter 0 to quit): ")
+    title_val = input(f"\nEnter title (Enter 0 to quit): ")
+
+    titleStr = "title: "
+    sourceStr = "source: "
+    datePublishedStr = "datePublished: "
+    characterStr = "character: "
+    artistStr = "artist: "
+    sourceTypeStr = "sourceType: "
+    # Description is the only field where the user needs to manually format the HTML tags themselves
+    descriptionStr = "description: "
+    songTitleStr = "songTitle: "
+    songArtistStr = "songArtist: "
+    uploaderStr = "uploader: "
+    platformStr = "platform: "
+    uploadDateStr = "uploadDate: "
+    artistLinksStr = "artistLinks: "
+    linksStr = "links: "
+    videoStr = "video: "
+    imgPathStr = "imgPath: "
+    url_fieldStr = "url_field: "
+
     if title_val == "0":
         #print(dataStr[:-2])
         file = open("data_formatting.txt", "w")
@@ -50,7 +51,7 @@ while loop:
         uploader_val = input("Enter uploader: ")
         platform_val = input("Enter platform: ")
         uploadDate_val = input("Enter upload date: ")
-        video_val = input("Enter the URL for the YouTube video: ")
+        video_val = input("Enter the URL id for the YouTube video: ")
         imgPath_val = input("Enter the name of the corresponding image file (including the file extension): ")
         url_field_val = input("Enter the suffix of the intended URL for this entry: ")
 
@@ -92,7 +93,7 @@ while loop:
         linksStr += f"\"{links_val}\","
         videoStr += "\"<iframe width=\\" + "\"560" + "\\" + "\" "
         videoStr += "height=" + "\\" + "\"315" + "\\" + "\" "
-        videoStr += "src=" + "\\" + f"\"{video_val}" + "\\" + "\" "
+        videoStr += "src=" + "\\" + f"\"https://www.youtube.com/embed/{video_val}" + "\\" + "\" "
         videoStr += "title=" + "\\" + "\"YouTube video player" + "\\" + "\" "
         videoStr += "frameborder=" + "\\" + "\"0" + "\\" + "\" "
         videoStr += "allow=" + "\\" + "\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" + "\\" + "\" allowfullscreen></iframe>\","

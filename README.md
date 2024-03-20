@@ -12,4 +12,5 @@ The [data_formatting_script.py](https://github.com/corroscience/Nightcore-Art-Da
 * SQLite3
 * [will_paginate](https://github.com/mislav/will_paginate)
 * [Ransack](https://github.com/activerecord-hackery/ransack)
+* [Rack::Attack](https://github.com/rack/rack-attack)
 * Python (for data formatting script only)

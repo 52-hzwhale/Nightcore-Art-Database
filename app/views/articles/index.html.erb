@@ -6,6 +6,11 @@
         <%= f.submit %>
     <% end %>
 </div>
+
+<div id="dropdown_pagination">
+        <%= select_tag :per_page, options_for_select([2,3,5,15], params[:per_page].to_i), :onchange => "if(this.value){window.location='?per_page='+this.value;}" %>
+</div>
+
 <div id="main_table">
     <table>
         <tr>

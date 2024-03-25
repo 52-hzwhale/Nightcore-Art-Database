@@ -1,7 +1,9 @@
 class ArticlesController < ApplicationController
   def index
     @q = Article.ransack(params[:q])
-    @articles = @q.result(distinct: true).page(params[:page]).order("title ASC").paginate(page: params[:page], per_page: 3)
+    @per_page = params[:per_page] || Article.per_page || 3
+    #@articles = @q.result(distinct: true).page(params[:page]).order("title ASC").paginate(page: params[:page], per_page: 3)
+    @articles = @q.result(distinct: true).page(params[:page]).order("title ASC").paginate(page: params[:page], :per_page => @per_page)
   end
 
   def show

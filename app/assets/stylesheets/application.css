@@ -18,6 +18,12 @@
 
  body {
     background-color: black;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=111129),
+    auto !important;
+ }
+
+ body:hover {
+   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=111142);
  }
 
  * { /*all text*/
@@ -54,8 +60,8 @@
 
  #logo img {
    margin-left: 2em;
-   margin-top: -3em;
-   margin-bottom: -2em;
+   margin-top: -2em;
+   margin-bottom: -1em;
    width: 27em;
  }
 

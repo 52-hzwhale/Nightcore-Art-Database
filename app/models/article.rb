@@ -6,4 +6,8 @@ class Article < ApplicationRecord
     def to_param
         url_field
     end
+
+    def self.per_page
+        2
+    end
 end

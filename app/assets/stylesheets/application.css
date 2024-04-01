@@ -14,13 +14,16 @@
  *= require_self
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
  body {
     background-color: black;
  }
 
  * { /*all text*/
     padding: 2px;
-    font-family: system-ui;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 150;
     color: white;
  }
 
@@ -28,19 +31,32 @@
     overflow: hidden;
  }
 
- #header, h2, #paginate, #search-container, #disclaimer, #about_goth {
+ select, option {
+   color: black;
+ }
+
+ #header, h2, #paginate, #disclaimer, #about_goth {
     margin: auto;
     width: 50%;
     text-align: center;
  }
 
- #header_title {
-   font-family: 'Times New Roman', Times, serif
+ #search-menu {
+   margin: auto;
+   width: 50%;
+   text-align: center;
  }
 
  #menu h2 {
    margin-left: 0.4em;
    margin-right: 0.4em;
+ }
+
+ #logo img {
+   margin-left: 2em;
+   margin-top: -3em;
+   margin-bottom: -2em;
+   width: 27em;
  }
 
 #disclaimer {

@@ -1,14 +1,10 @@
 <h2 class="page_title">Articles</h2>
 <p id="disclaimer"><b>DISCLAIMER:</b> While I do not host any explicit content on this website, some artworks originate from NSFW sources. Such sources are marked as "R-18" in the "Source Type" field in their database entries. Please use discretion when looking up these sources online!</p>
-<div id="search-container">
+<div id="search-menu">
     <%= search_form_for @q do |f| %>
         <%= f.search_field :title_cont %>
         <%= f.submit %>
-    <% end %>
-</div>
-
-<div id="dropdown_pagination">
-        <%= select_tag :per_page, options_for_select([2,3,5,15], params[:per_page].to_i), :onchange => "if(this.value){window.location='?per_page='+this.value;}" %>
+    <% end %><%= select_tag :per_page, options_for_select([2,3,5,15], params[:per_page].to_i), :onchange => "if(this.value){window.location='?per_page='+this.value;}" %> entries per page
 </div>
 
 <div id="main_table">

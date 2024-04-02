@@ -62,7 +62,8 @@
    margin-left: 2em;
    margin-top: -2em;
    margin-bottom: -1em;
-   width: 27em;
+   /*width: 27em;*/
+   height: 13em;
  }
 
 #disclaimer {
@@ -79,7 +80,12 @@ table {
 }
 
 #thumbnail img {
-   width: 13em;
+   /*width: 13em;*/
+   height: 9em;
+}
+
+#thumbnail img:hover {
+   opacity: 0.5;
 }
 
 #back a {

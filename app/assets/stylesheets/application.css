@@ -80,8 +80,7 @@ table {
 }
 
 #thumbnail img {
-   /*width: 13em;*/
-   height: 9em;
+   width: 13em;
 }
 
 #thumbnail img:hover {

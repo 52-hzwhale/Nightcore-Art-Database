@@ -5,8 +5,9 @@
         <%= f.search_field :title_cont %>
         <%= f.submit %>
     <% end %><%= select_tag :per_page, options_for_select([2,3,5,15], params[:per_page].to_i), :onchange => "if(this.value){window.location='?per_page='+this.value;}" %> entries per page
-    <br>Sort by:
+    <br>
     <form>
+    Sort by:
         <select name = "sort_by">
             <option value = "id">Select</option>
             <option value = "id">--------</option>
@@ -15,12 +16,19 @@
             <option value = "id">ID</option>
         </select>
         <select name = "sort_order">
+            <option value = "ASC">Asc/Desc</option>
+            <option value = "ASC">--------</option>
             <option value = "ASC">Ascending</option>
             <option value = "DESC">Descending</option>
         </select>
         <input type="submit" value="Sort"/>
     </form>
 </div>
+
+<% if false %>
+<%= select_tag :sort_by, options_for_select(["title", "uploadDate", "id"], params[:sort_by]), :onchange => "if(this.value){window.location='?sort_by='+this.value;}" %>
+<%= select_tag :sort_order, options_for_select(["ASC", "DESC"], params[:sort_order]), :onchange => "if(this.value){window.location='?sort_order='+this.value;}" %>
+<% end %>
 
 
 <div id="main_table">

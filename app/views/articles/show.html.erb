@@ -22,7 +22,7 @@
         <td><b>Artist Links</b></td>
         <td>
             <ul>
-                <%= @article.artistLinks.html_safe %>
+                <%= sanitize @article.artistLinks %>
             </ul>
         </td>
     </tr>
@@ -56,20 +56,20 @@
                 </tr>
                 <tr>
                     <td><b>Link</b></td>
-                    <td><%= @article.video.html_safe %></td>
+                    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/<%= @article.video %>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
                 </tr>
             </table>
         </td>
     </tr>
     <tr>
         <td><b>Description</b></td>
-        <td><%= @article.description.html_safe %></td>
+        <td><%= sanitize @article.description %></td>
     </tr>
     <tr>
         <td><b>Links</b></td>
         <td>
             <ul>
-                <%= @article.links.html_safe %>
+                <%= sanitize @article.links %>
             </ul>
         </td>
     </tr>

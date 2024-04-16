@@ -47,7 +47,7 @@ Article.create!([{
     uploadDate: "20090707",
     artistLinks: "<ul><li><a href=\"http://www.mahirutei.net/\">Personal Website</a></li><li><a href=\"https://twitter.com/izumimahiru\">Twitter</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E6%B3%89%E3%81%BE%E3%81%B2%E3%82%8B\">Wikipedia (JP)</a></li></ul>",
     links: "<ul><li><a href=\"https://vndb.org/v1074\">VNDB</a></li><li><a href=\"https://ja.wikipedia.org/wiki/Imitation_Lover\">Wikipedia (JP)</a></li></ul>",
-    video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6SCQyBcHeDg?si=3ykYZZJWciwZdDlA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    video: "6SCQyBcHeDg",
     imgPath: "damdadidoo.jpg",
     url_field: "Dam_Dadi_Doo"
 },
@@ -66,7 +66,7 @@ Article.create!([{
     uploadDate: "20111026",
     artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/53536\">Pixiv</a></li><li><a href=\"http://twitter.com/hal_goshuomo\">Twitter</a></li><li><a href=\"https://seiga.nicovideo.jp/user/illust/1049948\">NicoNico Seiga</a></li></ul>",
     links: "<ul><li><a href=\"https://www.pixiv.net/en/artworks/18949868\">Pixiv</a></li><li><a href=\"https://www.zerochan.net/573477\">Zerochan</a></li></ul>",
-    video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SREpvtnxJ4w?si=h07LqVPSOKxiL3tQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    video: "SREpvtnxJ4w",
     imgPath: "alejandro.jpg",
     url_field: "Alejandro_(eevee21500)"
 },
@@ -85,7 +85,7 @@ Article.create!([{
     uploadDate: "20160422",
     artistLinks: "<ul><li><a href=\"https://www.deviantart.com/pancake-waddle\">DeviantArt</a></li><li><a href=\"https://twitter.com/paddywaddle\">Twitter</a></li><li><a href=\"https://turtlequeen.tumblr.com/\">Tumblr</a></li><li><a href=\"https://toyhou.se/turtlequeen\">Toyhouse</a></li></ul>",
     links: "<ul><li><a href=\"https://www.deviantart.com/pancake-waddle/art/MAGE-visitor-351042576\">DeviantArt</a></li></ul>",
-    video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bNJD9mqiWlw?si=DXofGH4abxDRjxgG\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    video: "bNJD9mqiWlw",
     imgPath: "alejandro1.jpg",
     url_field: "Alejandro_(rachaelowens6720)"
 },
@@ -104,7 +104,7 @@ Article.create!([{
    	uploadDate: "20120725",
    	artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/541287\">Pixiv</a></li></ul>",
    	links: "<ul><li><a href=\"https://www.pixiv.net/en/artworks/6892009\">Pixiv</a></li><li><a href=\"https://e-shuushuu.net/image/212060/\">Shuushuu</a></li></ul>",
-   	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/H2pXUBGIcO8?si=7Xec3DA_b3o_qGDZ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+   	video: "H2pXUBGIcO8",
    	imgPath: "aroundtheworld.jpg",
    	url_field: "Around_the_World" 
 },
@@ -123,7 +123,7 @@ Article.create!([{
    	uploadDate: "20120218",
    	artistLinks: "<ul><li><a href=\"https://www.deviantart.com/momo\">DeviantArt</a></li></ul>",
    	links: "<ul><li><a href=\"https://www.deviantart.com/momo/art/Amber-Look-14751633\">DeviantArt</a></li></ul>",
-   	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mdML5WPEhEY?si=ldZ1h13BEFRVOi3S\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+   	video: "mdML5WPEhEY",
    	imgPath: "youregonnagofarkid.jpg",
    	url_field: "You're_Gonna_Go_Far_Kid" 
 },
@@ -142,7 +142,7 @@ Article.create!([{
    	uploadDate: "20140627",
    	artistLinks: "<ul><li><a href=\"https://piapro.jp/uiui0608\">Piapro</a></li><li><a href=\"http://twitter.com/satsu068\">Twitter</a></li><li><a href=\"https://www.nicovideo.jp/user/1179704/mylist/5125620\">Niconico</a></li><li><a href=\"http://www.pixiv.net/member.php?id=53851\">Pixiv</a></li></ul>",
    	links: "<ul><li><a href=\"https://piapro.jp/t/EULS\">Piapro</a></li><li><a href=\"https://www.nicovideo.jp/watch/sm13507998\">Niconico</a></li></ul>",
-   	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xkIytYlDD_o?si=sxYaiDmY2zKY32xf\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+   	video: "xkIytYlDD_o",
    	imgPath: "dollhouse.jpg",
    	url_field: "Dollhouse" 
 },
@@ -161,7 +161,7 @@ Article.create!([{
     uploadDate: "20110901",
     artistLinks: "<ul><li><a href=\"https://twitter.com/aonamasao\">Twitter (Aona Masao)</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E4%BB%81%E6%9D%91%E6%9C%89%E5%BF%97\">Wikipedia (JP) (Nimura Yuuji)</a></li><li><a href=\"https://twitter.com/primil\">Twitter (Nimura Yuuji)</a></li></ul>",
     links: "<ul><li><a href=\"https://vndb.org/v537\">VNDB</a></li><li><a href=\"https://www.zerochan.net/3026\">Zerochan</a></li></ul>",
-    video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/wRQxDUybCpE?si=9xPVVNfTRSxybzl9\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    video: "wRQxDUybCpE",
     imgPath: "everytimewetouch.jpg",
     url_field: "Everytime_We_Touch"
 },
@@ -180,7 +180,7 @@ Article.create!([{
     uploadDate: "20120830",
     artistLinks: "<ul><li><a href=\"https://rabumanyo.moo.jp/index.html\">Personal Website (Hontani Kanae)</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%BB%E3%82%93%E3%81%9F%E3%81%AB%E3%81%8B%E3%81%AA%E3%81%88\">Wikipedia (JP) (Hontani Kanae)</a></li><li><a href=\"https://www.pixiv.net/en/users/118614\">Pixiv (Hontani Kanae)</a></li><li><a href=\"http://haruka.saiin.net/~hachihima/\">Personal Website (Kozakura Ryou)</a></li><li><a href=\"https://ja.wikipedia.org/wiki/%E3%81%9B%E3%81%9B%E3%81%AA%E3%82%84%E3%81%86-\">Wikipedia (JP) (Sesena Yau)</a></li><li><a href=\"https://twitter.com/sesena_kokikko\">Twitter (Sesena Yau)</a></li><li><a href=\"https://www.pixiv.net/en/users/244372\">Pixiv (Sesena Yau)</a></li></ul>",
     links: "<ul><li><a href=\"https://vndb.org/v1755\">VNDB</a></li><li><a href=\"https://danbooru.donmai.us/posts/494970\">Danbooru</a></li></ul>",
-    video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/R5RUvjCStTk?si=DTT72APB_7V_F-pK\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+    video: "R5RUvjCStTk",
     imgPath: "gimmegimmegimme.jpg",
     url_field: "Gimme!_Gimme!_Gimme!"
 },
@@ -199,7 +199,7 @@ Article.create!([{
 	uploadDate: "20120215",
 	artistLinks: "<ul><li><a href=\"https://web.archive.org/web/20181201005417/http://minato-yasaka.mokuren.ne.jp/\">Personal Website (Yasaka Minato)</a></li><li><a href=\"https://web.archive.org/web/20130103073244/https://www.pixiv.net/member.php?id=2432956\">Pixiv (Yasaka Minato)</a></li></ul>",
 	links: "<ul><li><a href=\"https://vndb.org/v7259\">VNDB</a></li><li><a href=\"https://www.zerochan.net/790785\">Zerochan</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Q69_lnD6GhE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "Q69_lnD6GhE",
 	imgPath: "howtosavealife.jpg",
 	url_field: "How_To_Save_A_Life"
 },
@@ -218,7 +218,7 @@ Article.create!([{
 	uploadDate: "20071022",
 	artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/16584138\">Pixiv</a></li><li><a href=\"https://twitter.com/punipoyo\">Twitter</a></li><li><a href=\"https://poyo.chu.jp/\">Personal Website</a></li></ul>",
 	links: "<ul><li><a href=\"https://vndb.org/v175\">VNDB</a></li><li><a href=\"https://www.zerochan.net/425721\">Zerochan</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EYSYLt14miM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "EYSYLt14miM",
 	imgPath: "waves.jpg",
 	url_field: "Waves"
 },
@@ -237,7 +237,7 @@ Article.create!([{
 	uploadDate: "20160502",
 	artistLinks: "<ul><li><a href=\"https://en.wikipedia.org/wiki/Tsunako\">Wikipedia</a></li><li><a href=\"https://www.tunamayoza.com/\">Personal Website</a></li></ul>",
 	links: "<ul><li><a href=\"https://date-a-live.fandom.com/wiki/Light_Novel_Volume_8\">Date A Live Fandom Wiki Article</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nRrkeUJxJRE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "nRrkeUJxJRE",
 	imgPath: "gogogo.png",
 	url_field: "Go_Go_Go"
 },
@@ -256,7 +256,7 @@ Article.create!([{
 	uploadDate: "20120428",
 	artistLinks: "<ul><li><a href=\"https://piapro.jp/sandersoniahirahira\">Piapro</a></li></ul>",
 	links: "<ul><li><a href=\"https://piapro.jp/t/SmuU\">Piapro</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3CE9nET6hmA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "3CE9nET6hmA",
 	imgPath: "telephone.jpg",
 	url_field: "Telephone"
 },
@@ -275,7 +275,7 @@ Article.create!([{
 	uploadDate: "20141003",
 	artistLinks: "<ul><li><a href=\"http://www.tinkerbell.vc/\">Website</a></li><li><a href=\"https://www.ne.jp/asahi/tinker/bell/\">Blog</a></li></ul>",
 	links: "<ul><li><a href=\"https://anime-pictures.net/posts/129681\">Anime-Pictures</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/L3YCtWKQBQA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "L3YCtWKQBQA",
 	imgPath: "sm.jpg",
 	url_field: "S&M"
 },
@@ -294,7 +294,7 @@ Article.create!([{
 	uploadDate: "20141211",
 	artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/21062\">Pixiv</a></li><li><a href=\"https://mots.jp/\">Personal Website</a></li><li><a href=\"https://twitter.com/JohnHathway\">Twitter</a></li></ul>",
 	links: "<ul><li><a href=\"https://www.pixiv.net/en/artworks/20255211\">Pixiv</a></li><li><a href=\"http://pixiv-zingaro.jp/exhibition/jhkagaku/\">Exhibition</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/D-LxTP6zLVI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "D-LxTP6zLVI",
 	imgPath: "wonderland.jpg",
 	url_field: "Wonderland"
 },
@@ -313,7 +313,7 @@ Article.create!([{
 	uploadDate: "20140429",
 	artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/175347\">Pixiv</a></li><li><a href=\"https://twitter.com/92eda92\">Twitter</a></li><li><a href=\"https://kunieda.hungry.jp/\">Personal Website</a></li></ul>",
 	links: "<ul><li><a href=\"https://danbooru.donmai.us/posts/906161\">Danbooru</a></li><li><a href=\"https://web.archive.org/web/20090530153032/https://www.toranoana.jp/info/dojin/090613_soundgirl/\">Doujin Website</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aVOUM4am1mY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "aVOUM4am1mY",
 	imgPath: "sowhat.jpg",
 	url_field: "So_What"
 },
@@ -332,7 +332,7 @@ Article.create!([{
 	uploadDate: "20141018",
 	artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/531639\">Pixiv</a></li><li><a href=\"https://web.archive.org/web/20160209102140/https://torinosu.konjiki.jp/\">Personal Website</a></li></ul>",
 	links: "<ul><li><a href=\"https://www.pixiv.net/en/artworks/37717316\">Pixiv</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SYxX132juys\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "SYxX132juys",
 	imgPath: "loversonthesun.jpg",
 	url_field: "Lovers_On_The_Sun"
 },
@@ -351,7 +351,7 @@ Article.create!([{
 	uploadDate: "20131028",
 	artistLinks: "<ul><li><a href=\"https://www.pixiv.net/en/users/59287\">Pixiv</a></li><li><a href=\"https://4hands.ho-zuki.com/\">Personal Website</a></li><li><a href=\"https://twitter.com/beyond_the_2D\">Twitter</a></li></ul>",
 	links: "<ul><li><a href=\"https://www.nicovideo.jp/watch/sm21390666\">Niconico</a></li></ul>",
-	video: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pxVf-huh8FE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+	video: "pxVf-huh8FE",
 	imgPath: "iwannago.jpg",
 	url_field: "I_Wanna_Go"
 }])

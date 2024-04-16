@@ -91,12 +91,15 @@ while loop:
         uploadDateStr += f"\"{uploadDate_val}\","
         artistLinksStr += f"\"{artistLinks_val}\","
         linksStr += f"\"{links_val}\","
+        '''
         videoStr += "\"<iframe width=\\" + "\"560" + "\\" + "\" "
         videoStr += "height=" + "\\" + "\"315" + "\\" + "\" "
         videoStr += "src=" + "\\" + f"\"https://www.youtube.com/embed/{video_val}" + "\\" + "\" "
         videoStr += "title=" + "\\" + "\"YouTube video player" + "\\" + "\" "
         videoStr += "frameborder=" + "\\" + "\"0" + "\\" + "\" "
         videoStr += "allow=" + "\\" + "\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" + "\\" + "\" allowfullscreen></iframe>\","
+        '''
+        videoStr += f"\{video_val}\""
         imgPathStr += f"\"{imgPath_val}\","
         url_fieldStr += f"\"{url_field_val}\""
         singleEntryStr = f"\t{titleStr}\n\t{sourceStr}\n\t{datePublishedStr}\n\t{characterStr}\n\t{artistStr}\n\t{sourceTypeStr}\n\t{descriptionStr}\n\t{songTitleStr}\n\t{songArtistStr}\n\t{uploaderStr}\n\t{platformStr}\n\t{uploadDateStr}\n\t{artistLinksStr}\n\t{linksStr}\n\t{videoStr}\n\t{imgPathStr}\n\t{url_fieldStr}"

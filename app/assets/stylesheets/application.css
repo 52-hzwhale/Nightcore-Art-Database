@@ -181,6 +181,10 @@ input[type=submit]:hover {
    text-decoration: none;
 }
 
+#goth_anime_angel {
+   width: 45%;
+}
+
 #g_left {
    width: 40%;
    clear: both;
@@ -189,6 +193,10 @@ input[type=submit]:hover {
 #g_right {
    width: 45%;
    clear: both;
+}
+
+#p_left {
+   width: 40%;
 }
 
 #p_right {

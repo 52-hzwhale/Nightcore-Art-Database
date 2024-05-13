@@ -8,6 +8,6 @@ class Article < ApplicationRecord
     end
 
     def self.per_page
-        2
+        3
     end
 end

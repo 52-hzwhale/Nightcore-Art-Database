@@ -152,36 +152,13 @@ input[type=submit]:hover {
    color: rgb(87, 87, 87);
 }
 
-#about_text {
-   float: left;
-}
-
 #about_container {
+   font-size: 1.2em;
    margin-top: 2em;
    margin-bottom: 5em;
-}
-
-#float_right {
-   float: right;
-   position: relative;
-   clear: both;
-}
-
-#float_right a {
-   text-align: center;
-   
-}
-
-#float_right img {
-   margin-right: 18em;
-}
-
-#float_left {
-   float: left;
    margin-left: 20em;
-   width: 40em;
-   position: relative;
-   clear: both;
+   margin-right: 20em;
+   text-align: center;
 }
 
 #float_center {
